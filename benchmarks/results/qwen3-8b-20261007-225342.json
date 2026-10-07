@@ -1,0 +1,142 @@
+{
+  "model": "qwen3:8b",
+  "timestamp": "2026-10-07T22:53:42.446074+00:00",
+  "runs": 10,
+  "warmup_runs": 1,
+  "prompt": "Explain Kubernetes in three sentences.",
+  "generation_tokens_per_second": {
+    "average": 142.4718418072543,
+    "median": 142.5089063145557,
+    "min": 142.14564833166602,
+    "max": 142.63358892415107
+  },
+  "latency_seconds": {
+    "average": 1.9115574812,
+    "p50": 1.8963999244999998,
+    "p95": 2.1241292009499997,
+    "min": 1.728603082,
+    "max": 2.154043774
+  },
+  "results": [
+    {
+      "run": 1,
+      "metrics": {
+        "total_duration_seconds": 1.882090745,
+        "client_duration_seconds": 1.883815888999834,
+        "load_duration_seconds": 0.000576714,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2225.130890052356,
+        "generated_tokens": 265,
+        "generation_tokens_per_second": 142.14564833166602
+      }
+    },
+    {
+      "run": 2,
+      "metrics": {
+        "total_duration_seconds": 2.154043774,
+        "client_duration_seconds": 2.1555997159998697,
+        "load_duration_seconds": 0.000817887,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2239.1991570073765,
+        "generated_tokens": 304,
+        "generation_tokens_per_second": 142.30364320731815
+      }
+    },
+    {
+      "run": 3,
+      "metrics": {
+        "total_duration_seconds": 1.793641819,
+        "client_duration_seconds": 1.7949707089996991,
+        "load_duration_seconds": 0.001130198,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2232.729183083793,
+        "generated_tokens": 253,
+        "generation_tokens_per_second": 142.56155503664903
+      }
+    },
+    {
+      "run": 4,
+      "metrics": {
+        "total_duration_seconds": 1.947604076,
+        "client_duration_seconds": 1.94893560599985,
+        "load_duration_seconds": 0.000558114,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2250.1654533421574,
+        "generated_tokens": 275,
+        "generation_tokens_per_second": 142.45508650131862
+      }
+    },
+    {
+      "run": 5,
+      "metrics": {
+        "total_duration_seconds": 1.728603082,
+        "client_duration_seconds": 1.729955031999907,
+        "load_duration_seconds": 0.000766746,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2244.2244224422443,
+        "generated_tokens": 244,
+        "generation_tokens_per_second": 142.63358892415107
+      }
+    },
+    {
+      "run": 6,
+      "metrics": {
+        "total_duration_seconds": 2.087566945,
+        "client_duration_seconds": 2.089112397000008,
+        "load_duration_seconds": 0.000528844,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2254.3429253414665,
+        "generated_tokens": 295,
+        "generation_tokens_per_second": 142.44828523651483
+      }
+    },
+    {
+      "run": 7,
+      "metrics": {
+        "total_duration_seconds": 1.920586549,
+        "client_duration_seconds": 1.9221437120004339,
+        "load_duration_seconds": 0.000565484,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2240.0843325866385,
+        "generated_tokens": 271,
+        "generation_tokens_per_second": 142.457630682535
+      }
+    },
+    {
+      "run": 8,
+      "metrics": {
+        "total_duration_seconds": 1.862591986,
+        "client_duration_seconds": 1.863818245999937,
+        "load_duration_seconds": 0.000708055,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2233.6092497700697,
+        "generated_tokens": 263,
+        "generation_tokens_per_second": 142.56875283240203
+      }
+    },
+    {
+      "run": 9,
+      "metrics": {
+        "total_duration_seconds": 1.910709104,
+        "client_duration_seconds": 1.911888523000016,
+        "load_duration_seconds": 0.000555945,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2243.6320443447275,
+        "generated_tokens": 270,
+        "generation_tokens_per_second": 142.58404537341175
+      }
+    },
+    {
+      "run": 10,
+      "metrics": {
+        "total_duration_seconds": 1.828136732,
+        "client_duration_seconds": 1.829240712000228,
+        "load_duration_seconds": 0.000968707,
+        "prompt_tokens": 17,
+        "prompt_tokens_per_second": 2221.3511041421666,
+        "generated_tokens": 258,
+        "generation_tokens_per_second": 142.5601819465764
+      }
+    }
+  ]
+}
